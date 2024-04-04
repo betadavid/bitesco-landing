@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import logo from "./logo.png";
+import footerImg from "./footer.png";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+        <img src={logo} className="logo" alt="logo" />
+        <div class="d-grid gap-4 col-8 mx-auto">
+          <button class="btn btn-color" type="button">Whatsapp</button>
+          <button class="btn btn-color" type="button">Tienda Online</button>
+          <button class="btn btn-color" type="button">TikTok</button>
+        </div>
+        <footer><img src={footerImg} className='footer-img' alt="footer"/></footer>
     </div>
   );
 }
