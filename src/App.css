@@ -1,26 +1,22 @@
 .app {
   background-color: #F3ECDC;
   height: 100%;
-  border: 1px red solid;
 }
 
 .btn-color {
   background-color: #EE749D;
 }
 
-.btn-width {
-  width: 80%;
-}
-
 .logo {
   display: block;
-  margin: 20% auto;
+  margin: 10% auto 20%;
   height: 40%;
   width: 40%;
+  min-width: 150px;
+  max-width: 500px;
 }
 
 .footer-img {
   width: 100%;
-  max-width: 430px;
-  margin: 45% auto 0;
+  margin: 30% auto 0;
 }
